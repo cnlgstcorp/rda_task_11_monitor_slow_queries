@@ -1,4 +1,4 @@
-# create database ShopDB; 
+create database ShopDB; 
 
 use ShopDB; 
 
@@ -10,7 +10,7 @@ CREATE TABLE Products1 (
     PRIMARY KEY (ID)
 ) ENGINE=InnoDB;
 
-# CREATE TABLE Products2 (
+CREATE TABLE Products2 (
     ID INT AUTO_INCREMENT,
     Name VARCHAR(50),
     PRIMARY KEY (ID)
